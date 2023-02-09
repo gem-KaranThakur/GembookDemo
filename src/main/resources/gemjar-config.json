@@ -1,0 +1,16 @@
+{
+  "environment": "prod",
+  "projectName": "GEMBOOK-AUTOMATION",
+  "reportName": "GemBookTestReport",
+  "gemjarUserName": "karanthakur",
+  "gemjarSubID": "Test_ID",
+  "gemjarToken": "f55481ec-6af8-4018-807f-8d49040b45971675853961366",
+  "jewelEntryUrl": "https://apis.gemecosystem.com/enter-point",
+  "glueCode": "com.qa.Gembook.stepDefinition",
+  "feature": "src/resources/features",
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://gembook.geminisolutions.com/#/",
+    "browserTimeout": 100
+  }
+}
